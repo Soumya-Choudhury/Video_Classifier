@@ -25,9 +25,9 @@ st.write("Enter your details below to predict your obesity category.")
 gender = st.selectbox("Gender", ["Male", "Female"])
 age = st.number_input("Age", min_value=5, max_value=100, value=25)
 weight = st.number_input("Weight (kg)", min_value=20.0, max_value=200.0, value=70.0)
-fcvc = st.number_input("Frequency of Consumption of Vegetables (FCVC) [0-3]", min_value=1.0, max_value=3.0)
-ch2o = st.number_input("Daily Water Intake (CH2O) [0-3]", min_value=1.0, max_value=3.0)
-faf = st.number_input("Physical Activity Frequency (FAF) [0-3]", min_value=1.0,max_value=3.0)
+fcvc = st.number_input("Frequency of Consumption of Vegetables (FCVC) [0-3]", min_value=0.0, max_value=3.0)
+ch2o = st.number_input("Daily Water Intake (CH2O) [0-3]", min_value=0.0, max_value=3.0)
+faf = st.number_input("Physical Activity Frequency (FAF) [0-3]", min_value=0.0,max_value=3.0)
 
 # Convert gender to numerical (assuming 0 for Female, 1 for Male)
 gender_num = 1 if gender == "Male" else 0
@@ -37,8 +37,10 @@ input_data = np.array([[gender_num, age, weight, fcvc, ch2o, faf]])
 
 # Prediction button
 if st.button("Predict"):
-    prediction = model.predict(input_data)[0]  # Get the predicted class
+    prediction = model.predict(input_data)[0]  
     category = obesity_categories.get(int(prediction), "Unknown Category")
     
     # Display the result
     st.success(f"Predicted Obesity Category: **{category}**")
+
+st.markdown("<p style='text-align: center;'>Created by <b>Soumya Choudhury</b></p>", unsafe_allow_html=True)
