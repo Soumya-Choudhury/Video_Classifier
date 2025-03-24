@@ -24,16 +24,18 @@ st.write("Enter your details below to predict your obesity category.")
 # Input fields
 gender = st.selectbox("Gender", ["Male", "Female"])
 age = st.number_input("Age", min_value=5, max_value=100, value=25)
+height=st.number_input("Height (metre)",min_value=1.0,max_value=2.5)
 weight = st.number_input("Weight (kg)", min_value=20.0, max_value=200.0, value=70.0)
+family_history_with_overweight=st.selectbox("Family History with overweight",["Yes","No"])
 fcvc = st.number_input("Frequency of Consumption of Vegetables (FCVC) [0-3]", min_value=0.0, max_value=3.0)
 ch2o = st.number_input("Daily Water Intake (CH2O) [0-3]", min_value=0.0, max_value=3.0)
 faf = st.number_input("Physical Activity Frequency (FAF) [0-3]", min_value=0.0,max_value=3.0)
 
 # Convert gender to numerical (assuming 0 for Female, 1 for Male)
 gender_num = 1 if gender == "Male" else 0
-
+family_history_num= 1 if family_history_with_overweight == "Yes" else 0
 # Prepare input data
-input_data = np.array([[gender_num, age, weight, fcvc, ch2o, faf]])
+input_data = np.array([[gender_num, age, height, weight, family_history_num, fcvc, ch2o, faf]])
 
 # Prediction button
 if st.button("Predict"):
