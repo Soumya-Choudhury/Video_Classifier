@@ -68,9 +68,7 @@ The model effectively minimizes false positives, making it suitable for real-wor
 
 ## 📬 Contact
 
-Created by **Soumya Choudhury**  
-📧 [soumyaslg27@gmail.com](mailto:soumyaslg27@gmail.com)  
-🔗 [GitHub](https://github.com/Soumya-Choudhury)  
+Created by **Soumya Choudhury**    
 🔗 [LinkedIn](https://www.linkedin.com/in/soumya-choudhury27)
 
 ---
