@@ -7,7 +7,7 @@ This project implements a deep learning–based video classification system to d
 
 ## 📂 Dataset
 
-- **Dataset Used:** [Real Life Violence Situations Dataset on Kaggle](https://www.kaggle.com/datasets/mohamedhanyyy/real-life-violence-situations-dataset)
+- **Dataset Used:** [Real Life Violence Situations Dataset on Kaggle](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset)
 - **Categories:** 
   - Violence (Label: 1)
   - NonViolence (Label: 0)
