@@ -275,7 +275,7 @@ Streamlit UI
 
 ```md
 ## Project Structure
-```
+
 
 Video_Classifier/
 │
@@ -304,7 +304,7 @@ Video_Classifier/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ## Conclusion
 
 This project demonstrates a complete end-to-end machine learning pipeline, from data preprocessing and model building to evaluation and deployment. It highlights the importance of iterative improvement, proper validation, and real-world system design in deep learning applications.
