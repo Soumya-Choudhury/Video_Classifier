@@ -214,7 +214,7 @@ Finally, two models were saved:-
 
 EarlyStopping and ModelCheckpoint were used to prevent overfitting and ensure that the best-performing model on validation data was saved
 
-### ✅ Final Outcome
+### Final Outcome
 
 The same preprocessing pipeline used for the training and validation data was applied to the test .mp4 videos. These videos were converted into .npy format to maintain consistency and perform testing on best_model.h5. 
 
