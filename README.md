@@ -325,6 +325,15 @@ This project demonstrates a complete end-to-end machine learning pipeline, from 
 - Deploy using Docker + Cloud (AWS/GCP)
 - Improve dataset diversity for better generalization
 
+## 🎥 Demo Video
+
+👉 **[Watch Demo Video](https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link)**
+
+Or preview below:
+
+<iframe src="https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link" 
+width="700" height="400"></iframe>
+
 ## Acknowledgments
 
 - Dataset by [Mohamed Hany on Kaggle](https://www.kaggle.com/datasets/mohamedhanyyy/real-life-violence-situations-dataset)
