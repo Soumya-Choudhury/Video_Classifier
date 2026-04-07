@@ -302,6 +302,7 @@ Video_Classifier/
 ├── best_model.h5
 ├── final_model.h5
 │
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
