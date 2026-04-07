@@ -224,10 +224,12 @@ After applying these improvements, the final model achieved:
 * **Improved Recall for Violence Detection:** ~90%
 * **Improved Precision for Violence Detection:** ~90%
 
+
 ### Confusion Matrix
+```md
 [[26  2]
  [ 3 27]]
-
+``
 - True Positives (Violence correctly detected): 27  
 - True Negatives (Non-Violence correctly detected): 26  
 - False Positives: 2  
@@ -327,12 +329,8 @@ This project demonstrates a complete end-to-end machine learning pipeline, from 
 
 ## 🎥 Demo Video
 
-👉 **[Watch Demo Video](https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link)**
+ **[Watch Demo Video](https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link)**
 
-Or preview below:
-
-<iframe src="https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link" 
-width="700" height="400"></iframe>
 
 ## Acknowledgments
 
