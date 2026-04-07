@@ -7,7 +7,5 @@ scikit-learn
 opencv-python
 matplotlib
 seaborn
-fastapi
-uvicorn
 tqdm
 streamlit
