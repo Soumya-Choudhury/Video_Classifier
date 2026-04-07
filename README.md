@@ -183,7 +183,7 @@ What the model learns?
 - Scene context
 
 ### Model Flow
-
+```md
 Video Frames (20)
         ↓
 MobileNetV2 (per frame)
@@ -195,7 +195,7 @@ GRU Layer
 Dense + Dropout
         ↓
 Output (Violence / Non-Violence)
-
+```
 ## Training Phase
 Trained the model on:
 - Training set
