@@ -109,6 +109,7 @@ Based on insights from this baseline experiment, several improvements were imple
 ## Dataset Preparation
 I separated 30 videos of each violence and non-violence category to a test folder and the remaining 970 videos of each category is being used to split between training(75%) and validation set(25%).
 We structured the data into: 
+
 data/
 ├── train/
 ├── val/
