@@ -229,7 +229,7 @@ After applying these improvements, the final model achieved:
 ```md
 [[26  2]
  [ 3 27]]
-``
+```
 - True Positives (Violence correctly detected): 27  
 - True Negatives (Non-Violence correctly detected): 26  
 - False Positives: 2  
