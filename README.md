@@ -327,7 +327,7 @@ This project demonstrates a complete end-to-end machine learning pipeline, from 
 - Deploy using Docker + Cloud (AWS/GCP)
 - Improve dataset diversity for better generalization
 
-## 🎥 Demo Video
+## Demo Video
 
  **[Watch Demo Video](https://drive.google.com/file/d/1MZANeKpl3i1E7RMZstinAAo4eIfbuqH3/view?usp=drive_link)**
 
