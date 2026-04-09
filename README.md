@@ -62,9 +62,9 @@ The baseline model was designed using a **Convolutional Recurrent Neural Network
 * Fully connected (**Dense**) layers for final binary classification
 
 Why CNN and LSTM?
-- CNN (Convolutional Neural Network) is specialized for grid like data such as image, video and audio based data. It automatically learns features i.e., edges, shapes and objects from images. Here it helped to extract features from each frame i.e., what is in the image.
+- **CNN (Convolutional Neural Network)** is specialized for grid like data such as image, video and audio based data. It automatically learns features i.e., edges, shapes and objects from images. Here it helped to extract features from each frame i.e., what is in the image.
 
-- LSTM (Long Short Term Memory) is a special type of RNN (Recurrent Neural Network) used for sequence data. It remembers long term dependencies. Here it helped to understand the sequence of frames i.e., what happens over time.
+- **LSTM (Long Short Term Memory)** is a special type of RNN (Recurrent Neural Network) used for sequence data. It remembers long term dependencies. Here it helped to understand the sequence of frames i.e., what happens over time.
 ---
 
 ### Training Performance
@@ -152,8 +152,8 @@ Instead of loading all data into memory, a custom VideoGenerator (Keras Sequence
 What it does?
 - Loads .npy files batch-wise
 - Returns: 
-  X-> (batch_size,20,96,96,3)
-  y-> labels
+  - X-> (batch_size,20,96,96,3)
+  - y-> labels
 
 Why this is important?
 - Prevents memory overflow
