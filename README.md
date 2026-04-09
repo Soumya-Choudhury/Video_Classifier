@@ -7,6 +7,12 @@ This project focuses on building a deep learning based video classification syst
   - Analyzed the overall performance of the model against the training and validation data through performance metrics.
 
 - **Phase 2:Final Experimentation**
+- Improved the baseline model using Transfer Learning (MobileNetV2 + GRU architecture)
+  - Built a robust preprocessing pipeline for consistent frame extraction and normalization
+  - Implemented a custom data generator for efficient training on large datasets
+  - Addressed key issues like inconsistent frame sampling using deterministic techniques
+  - Achieved significant performance improvements in accuracy, precision, and recall
+  - Deployed the final model using a Streamlit web application for real time inference
 
 ## Phase 1:Initial Experimentation
 
@@ -335,3 +341,8 @@ This project demonstrates a complete end-to-end machine learning pipeline, from 
 ## Acknowledgments
 
 - Dataset by [Mohamed Hany on Kaggle](https://www.kaggle.com/datasets/mohamedhanyyy/real-life-violence-situations-dataset)
+
+## Author
+
+**Soumya Choudhury**  
+---
